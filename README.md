@@ -1,4 +1,6 @@
-# qidian_booklist_spider
+## qidian_booklist_spider
+
+
 a spider of www.qidian.com booklist
 
 
@@ -9,14 +11,14 @@ a spider of www.qidian.com booklist
 
 
 
-####程序说明：
+#### 程序说明：
 本程序的功能是爬取起点书单，并保存到数据库，然后分析得出一些榜单。
 
 
-当前支持的功能：
+##### 当前支持的功能：
 -   1.从入口http://book.qidian.com/booklist/和http://book.qidian.com/booklist/laest开始
 -  2.爬取书单列表booklist，对应书单book和书籍详细介绍bookdetail，并且解析和存储到mysql中
-#####下一阶段需要开发的功能:
+##### 下一阶段需要开发的功能:
 -  1.读取保存下来的数据，并按照各种指标选择推荐的书籍和书单(独立的子程序) --已完成4张榜单
 -   2.程序执行速度加快(多进、线程化) --多进程方法存在进程间通信不明之处，且多进程利于cpu密集型，已经改为多线程版本
 
